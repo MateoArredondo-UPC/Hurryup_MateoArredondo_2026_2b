@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectCharacter.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectGameMode.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectPlayerController.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyGameMode.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyPawn.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyPlayerController.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyUnit.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyHUD.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/StrategyUI.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickCharacter.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickGameMode.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickPlayerController.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickAIController.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickNPC.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickNPCDestruction.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickSpawner.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickStateTreeUtility.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickAoEAttack.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickPickup.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickProjectile.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/TwinStickUI.cpp.obj"
+"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
+/OUT:"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/UnrealEditor-MyProject.lib"

@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/TopDown/Blueprints/BP_TopDownController.uasset",
+				"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/TopDown/Input/IMC_Default.uasset",
+				"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/TopDown/Input/Actions/IA_Movement.uasset",
+				"D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/TopDown/Input/Actions/IA_SetDestination_Click.uasset"
+			]
+		}
+	]
+}

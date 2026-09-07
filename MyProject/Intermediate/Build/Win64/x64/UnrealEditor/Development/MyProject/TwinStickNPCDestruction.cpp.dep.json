@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\entregas practicas programacion 2026\\hurryup_mateoarredondo_2026_2b\\myproject\\source\\myproject\\variant_twinstick\\ai\\twinsticknpcdestruction.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\entregas practicas programacion 2026\\hurryup_mateoarredondo_2026_2b\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\entregas practicas programacion 2026\\hurryup_mateoarredondo_2026_2b\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "d:\\entregas practicas programacion 2026\\hurryup_mateoarredondo_2026_2b\\myproject\\source\\myproject\\variant_twinstick\\ai\\twinsticknpcdestruction.h",
+            "d:\\entregas practicas programacion 2026\\hurryup_mateoarredondo_2026_2b\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\twinsticknpcdestruction.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
