@@ -994,3 +994,290 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.14-21.24.41:793][  0]LogNNERuntimeORT: 1: AMD Radeon(TM) Graphics (Compute, Graphics)
 [2026.09.14-21.24.41:793][  0]LogNNERuntimeORT: 2: Microsoft Basic Render Driver (Compute, Graphics)
 [2026.09.14-21.24.41:793][  0]LogNNERuntimeORT: No NPU adapter found!
+[2026.09.14-21.24.42:037][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: E3D5B90A78EC433E8000000000008300 | Instance: A72B418C43F97C25831959AEEDBC1BB2 (GORDO-26128).
+[2026.09.14-21.24.42:149][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.09.14-21.24.42:152][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2026.09.14-21.24.42:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.09.14-21.24.42:152][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63244'.
+[2026.09.14-21.24.42:156][  0]LogUdpMessaging: Display: Added local interface '192.168.1.243' to multicast group '230.0.0.1:6666'
+[2026.09.14-21.24.42:156][  0]LogUdpMessaging: Display: Added local interface '127.0.0.1' to multicast group '230.0.0.1:6666'
+[2026.09.14-21.24.42:158][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.09.14-21.24.42:193][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.09.14-21.24.42:213][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.09.14-21.24.42:213][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.09.14-21.24.42:216][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.09.14-21.24.42:335][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.14-21.24.42:335][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.14-21.24.42:340][  0]LogTimingProfiler: Initialize
+[2026.09.14-21.24.42:340][  0]LogTimingProfiler: OnSessionChanged
+[2026.09.14-21.24.42:340][  0]LoadingProfiler: Initialize
+[2026.09.14-21.24.42:341][  0]LoadingProfiler: OnSessionChanged
+[2026.09.14-21.24.42:341][  0]LogNetworkingProfiler: Initialize
+[2026.09.14-21.24.42:341][  0]LogNetworkingProfiler: OnSessionChanged
+[2026.09.14-21.24.42:341][  0]LogMemoryProfiler: Initialize
+[2026.09.14-21.24.42:341][  0]LogMemoryProfiler: OnSessionChanged
+[2026.09.14-21.24.42:367][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.09.14-21.24.42:383][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png' error.
+[2026.09.14-21.24.42:383][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png] file: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png]
+[2026.09.14-21.24.42:400][  0]SourceControl: Revision control is disabled
+[2026.09.14-21.24.42:411][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png' error.
+[2026.09.14-21.24.42:411][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png]
+[2026.09.14-21.24.42:411][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.09.14-21.24.42:411][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.09.14-21.24.42:414][  0]SourceControl: Revision control is disabled
+[2026.09.14-21.24.42:603][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.09.14-21.24.42:632][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.14-21.24.42:632][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.09.14-21.24.42:667][  0]LogCollectionManager: Loaded 0 collections in 0.001412 seconds
+[2026.09.14-21.24.42:668][  0]LogFileCache: Scanning file cache for directory 'D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Saved/Collections/' took 0.00s
+[2026.09.14-21.24.42:670][  0]LogFileCache: Scanning file cache for directory 'D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/Developers/Usuario/Collections/' took 0.00s
+[2026.09.14-21.24.42:672][  0]LogFileCache: Scanning file cache for directory 'D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/Collections/' took 0.00s
+[2026.09.14-21.24.42:696][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.09.14-21.24.42:696][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2026.09.14-21.24.42:696][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.09.14-21.24.42:696][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2026.09.14-21.24.42:706][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.09.14-21.24.42:706][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png' error.
+[2026.09.14-21.24.42:706][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png]
+[2026.09.14-21.24.42:706][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2026.09.14-21.24.42:706][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png' error.
+[2026.09.14-21.24.42:706][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png] file: [../../../Engine/Plugins/Animation/EaseCurveTool/Resources/Common/ButtonHoverHint.png]
+[2026.09.14-21.24.42:719][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.19.0.3-49960398 booting at 2026-09-14T21:24:42.719Z using C
+[2026.09.14-21.24.42:720][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Configuration win64-dynamic-x86_64
+[2026.09.14-21.24.42:720][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.9278.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=MyProject, ProductVersion=++UE5+Release-5.7-CL-51494982, IsServer=false, Flags=DisableOverlay]
+[2026.09.14-21.24.42:720][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.09.14-21.24.42:720][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2026.09.14-21.24.42:724][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2026.09.14-21.24.42:724][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2026.09.14-21.24.42:724][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2026.09.14-21.24.42:724][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000048
+[2026.09.14-21.24.42:724][  0]LogFab: Plugin initialized. VersionName: 0.0.10 (Version: 10) - Engine Version 5.7.4-51494982+++UE5+Release-5.7
+[2026.09.14-21.24.42:737][  0]LogWindows: Failed to load 'Wintab32.dll' (GetLastError=126)
+[2026.09.14-21.24.42:737][  0]LogWindows: File 'Wintab32.dll' does not exist
+[2026.09.14-21.24.42:737][  0]LogStylusInput: Wintab driver is not available; Wintab interface will be not be initialized.
+[2026.09.14-21.24.42:787][  0]LogUObjectArray: 43999 objects as part of root set at end of initial load.
+[2026.09.14-21.24.42:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.09.14-21.24.42:918][  0]LogAutomationTest: Error: Condition failed
+[2026.09.14-21.24.42:918][  0]LogAutomationTest: Error: Condition failed
+[2026.09.14-21.24.42:918][  0]LogEngine: Initializing Engine...
+[2026.09.14-21.24.43:045][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2026.09.14-21.24.43:237][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2026.09.14-21.24.43:249][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2026.09.14-21.24.43:258][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.09.14-21.24.43:267][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.09.14-21.24.43:267][  0]LogInit: Texture streaming: Enabled
+[2026.09.14-21.24.43:272][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.7.4-51494982+++UE5+Release-5.7 )
+[2026.09.14-21.24.43:276][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.09.14-21.24.43:277][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.14-21.24.43:278][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.14-21.24.43:278][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.14-21.24.43:283][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.14-21.24.43:294][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Console', Device='Altavoces (JBL Quantum 600 Game)'
+[2026.09.14-21.24.43:295][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Console', Device='Micrófono de los auriculares con micrófono (JBL Quantum 600 Chat)'
+[2026.09.14-21.24.43:296][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Multimedia', Device='Altavoces (JBL Quantum 600 Game)'
+[2026.09.14-21.24.43:296][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Multimedia', Device='Micrófono de los auriculares con micrófono (JBL Quantum 600 Chat)'
+[2026.09.14-21.24.43:297][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Render Role='Communications', Device='Audífono de los auriculares con micrófono (JBL Quantum 600 Chat)'
+[2026.09.14-21.24.43:298][  0]LogAudioEnumeration: Display: FWindowsMMDeviceCache: Default Capture Role='Communications', Device='Micrófono de los auriculares con micrófono (JBL Quantum 600 Chat)'
+[2026.09.14-21.24.43:576][  0]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (JBL Quantum 600 Game)
+[2026.09.14-21.24.43:577][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.14-21.24.43:578][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.14-21.24.43:578][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.14-21.24.43:579][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.09.14-21.24.43:579][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2026.09.14-21.24.43:580][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.09.14-21.24.43:580][  0]LogInit: FAudioDevice initialized with ID 1.
+[2026.09.14-21.24.43:580][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.09.14-21.24.43:580][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.09.14-21.24.43:580][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2026.09.14-21.24.43:585][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.09.14-21.24.43:590][  0]LogInit: Undo buffer set to 256 MB
+[2026.09.14-21.24.43:590][  0]LogInit: Transaction tracking system initialized
+[2026.09.14-21.24.43:655][  0]LocalizationService: Localization service is disabled
+[2026.09.14-21.24.43:755][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Localization
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Material
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/DataValidation.PackageFileValidator
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.14-21.24.43:769][  0]LogContentValidation: Adding native validator /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.14-21.24.43:795][  0]LogFileCache: Scanning file cache for directory 'D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/' took 0.03s
+[2026.09.14-21.24.43:802][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.09.14-21.24.43:802][  0]LogPython: Using Python 3.11.8
+[2026.09.14-21.24.43:821][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.09.14-21.24.44:002][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (4 permutations).
+[2026.09.14-21.24.44:054][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.09.14-21.24.44:094][  0]LogEditorDataStorage: Initializing
+[2026.09.14-21.24.44:106][  0]LogEditorDataStorage: Initialized
+[2026.09.14-21.24.44:109][  0]LogCore: Display: InsightsEditor module auto-connecting to local trace server...
+[2026.09.14-21.24.44:172][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.09.14-21.24.44:176][  0]SourceControl: Revision control is disabled
+[2026.09.14-21.24.44:176][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.235
+[2026.09.14-21.24.44:176][  0]Cmd: MAP LOAD FILE="D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Content/ThirdPerson/Lvl_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.09.14-21.24.44:179][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.09.14-21.24.44:179][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.14-21.24.44:196][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.14-21.24.44:197][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.09.14-21.24.44:526][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lvl_ThirdPerson'.
+[2026.09.14-21.24.44:526][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.09.14-21.24.44:528][  0]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.09.14-21.24.44:528][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.09.14-21.24.44:528][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.09.14-21.24.44:609][  0]LogWorldPartition: Display: WorldPartition initialize took 80.311 ms
+[2026.09.14-21.24.44:618][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.09.14-21.24.44:634][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.09.14-21.24.44:635][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.09.14-21.24.44:635][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,441ms to complete.
+[2026.09.14-21.24.44:649][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.708
+[2026.09.14-21.24.44:756][  0]LogWebBrowser: Loaded CEF3 version 128.4.13.3057 from C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/ThirdParty/CEF3/Win64/128.4.13+ge76af7e+chromium-128.0.6613.138
+[2026.09.14-21.24.44:757][  0]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.09.14-21.24.44:869][  0]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.7
+[2026.09.14-21.24.44:869][  0]LogDesktopPlatform: Looking for directories to scan from : C:/Users/Usuario/AppData/Local/UnrealEngine/5.7/Saved/Config/WindowsEditor
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Searching for previously created project directories...
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found directory: "D:/PROYECTO 2D"
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found directory: "C:/Users/Usuario/OneDrive/Documentos/Unreal Projects"
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found directory: "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b"
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/example/example.uproject",LastOpenTime=2025.04.27-21.52.23)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/MyProject/MyProject.uproject",LastOpenTime=2025.05.08-20.33.51)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/cpt_J2D_UPC_20251/cpt_J2D_UPC_20251.uproject",LastOpenTime=2025.05.08-21.56.35)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/EntregasPractica/EntregasPractica.uproject",LastOpenTime=2026.04.06-20.49.24)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/UPC-Planetshams 5.7/PlanetShams.uproject",LastOpenTime=2026.04.13-20.59.08)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/proyectodeprueba67/proyectodeprueba67.uproject",LastOpenTime=2026.06.20-18.25.16)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject",LastOpenTime=2026.06.20-20.11.00)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/Entregas practicas Programacion 2026/Entregas-Practicas-MateoArredondo/EntregasPracticas.uproject",LastOpenTime=2026.06.22-21.14.47)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuario/OneDrive/Documentos/Unreal Projects/UEIntroProject/UEIntroProject.uproject",LastOpenTime=2026.09.14-21.21.59)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "(ProjectName="D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/MyProject.uproject",LastOpenTime=2026.09.14-21.24.43)" in recently opened files
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha 5.7/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/cpt_J2D_UPC_20251/cpt_J2D_UPC_20251.uproject" in previously created project directory
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject" in previously created project directory
+[2026.09.14-21.24.44:875][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/finalsimple/finalsimple.uproject" in previously created project directory
+[2026.09.14-21.24.44:876][  0]LogDesktopPlatform: Found project "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/basura ( problema )/MyProject.uproject" in previously created project directory
+[2026.09.14-21.24.44:876][  0]LogDesktopPlatform: Found project "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/MyProject.uproject" in previously created project directory
+[2026.09.14-21.24.44:876][  0]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2026.09.14-21.24.44:877][  0]LogProjectBrowser: Looking for projects...
+[2026.09.14-21.24.44:877][  0]LogProjectBrowser: Found Engine Installation "5.7"(C:/Program Files/Epic Games/UE_5.7)
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.7
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Looking for directories to scan from : C:/Users/Usuario/AppData/Local/UnrealEngine/5.7/Saved/Config/WindowsEditor
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Searching for previously created project directories...
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Found directory: "D:/PROYECTO 2D"
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Found directory: "C:/Users/Usuario/OneDrive/Documentos/Unreal Projects"
+[2026.09.14-21.24.44:877][  0]LogDesktopPlatform: Found directory: "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b"
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/example/example.uproject",LastOpenTime=2025.04.27-21.52.23)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/MyProject/MyProject.uproject",LastOpenTime=2025.05.08-20.33.51)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/cpt_J2D_UPC_20251/cpt_J2D_UPC_20251.uproject",LastOpenTime=2025.05.08-21.56.35)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/EntregasPractica/EntregasPractica.uproject",LastOpenTime=2026.04.06-20.49.24)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/UPC-Planetshams 5.7/PlanetShams.uproject",LastOpenTime=2026.04.13-20.59.08)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/proyectodeprueba67/proyectodeprueba67.uproject",LastOpenTime=2026.06.20-18.25.16)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject",LastOpenTime=2026.06.20-20.11.00)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/Entregas practicas Programacion 2026/Entregas-Practicas-MateoArredondo/EntregasPracticas.uproject",LastOpenTime=2026.06.22-21.14.47)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuario/OneDrive/Documentos/Unreal Projects/UEIntroProject/UEIntroProject.uproject",LastOpenTime=2026.09.14-21.21.59)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/MyProject.uproject",LastOpenTime=2026.09.14-21.24.43)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha 5.7/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/cpt_J2D_UPC_20251/cpt_J2D_UPC_20251.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/finalsimple/finalsimple.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/basura ( problema )/MyProject.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/MyProject.uproject" in previously created project directory
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2026.09.14-21.24.44:878][  0]LogProjectBrowser: Found Engine Installation "5.4"(C:/Program Files/Epic Games/UE_5.4)
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.4
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Looking for directories to scan from : C:/Users/Usuario/AppData/Local/UnrealEngine/5.4/Saved/Config/WindowsEditor
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Searching for previously created project directories...
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found directory: "D:/Parcial 1- programacion"
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found directory: "D:/facultad/Proyecto 2do Semestre 2025/Programacion/Planet-sham-s"
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found directory: "D:/PROYECTO 2D"
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/UPC-Planetshams/MyProject2.uproject",LastOpenTime=2026.01.08-20.00.24)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/UPC-Planetshams/PlanetSham/'s.uproject",LastOpenTime=2026.02.06-19.33.23)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/finalsimple/finalsimple.uproject",LastOpenTime=2026.03.16-21.46.33)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject",LastOpenTime=2026.03.31-14.30.07)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/PROYECTO 2D/alpha/alpha.uproject",LastOpenTime=2026.04.29-22.20.27)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuario/OneDrive/Desktop/Mind-sLastStand/MindsLastStand.uproject",LastOpenTime=2026.05.06-23.27.07)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuario/OneDrive/Documentos/Mind´s Last stand/MindsLastStand.uproject",LastOpenTime=2026.06.27-01.09.17)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/UPC-Planetshams/PlanetShams.uproject",LastOpenTime=2026.08.17-23.35.38)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/MindLastStand/MindsLastStand.uproject",LastOpenTime=2026.09.14-15.47.33)" in recently opened files
+[2026.09.14-21.24.44:878][  0]LogDesktopPlatform: Found project "(ProjectName="D:/facultad/Proyecto 2do Semestre 2025/Programacion/Mind-sLastStand/MindsLastStand.uproject",LastOpenTime=2026.09.14-20.38.41)" in recently opened files
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/alpha 5.7/alpha.uproject" in previously created project directory
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/cpt_J2D_UPC_20251/cpt_J2D_UPC_20251.uproject" in previously created project directory
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/EntregasPracticas/EntregasPracticas.uproject" in previously created project directory
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Found project "D:/PROYECTO 2D/finalsimple/finalsimple.uproject" in previously created project directory
+[2026.09.14-21.24.44:879][  0]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2026.09.14-21.24.44:879][  0]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2026.09.14-21.24.44:885][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2026.09.14-21.24.44:898][  0]LogSlate: The tab "Unknown" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2026.09.14-21.24.44:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.14-21.24.44:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.14-21.24.45:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.14-21.24.45:084][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.14-21.24.45:139][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:139][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:139][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:139][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:139][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:140][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:140][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:140][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:140][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:141][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:141][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:141][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:141][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:141][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:141][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:142][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:142][  0]LogPakFile: Initializing PakPlatformFile
+[2026.09.14-21.24.45:142][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.7/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.09.14-21.24.45:351][  0]LogToolMenus: Warning: Menu section not found: 'Compile' for insert: 'EditorPerf'
+[2026.09.14-21.24.45:421][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.09.14-21.24.45:423][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.09.14-21.24.45:424][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.09.14-21.24.45:425][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.09.14-21.24.45:482][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.09.14-21.24.45:504][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.09.14-21.24.45:633][  0]LogStall: Startup...
+[2026.09.14-21.24.45:635][  0]LogStall: Startup complete.
+[2026.09.14-21.24.45:636][  0]LogLoad: (Engine Initialization) Total time: 9.69 seconds
+[2026.09.14-21.24.45:874][  0]LogAssetRegistry: AssetRegistryGather time 1.5009s: AssetDataDiscovery 0.0450s, AssetDataGather 1.4073s, StoreResults 0.0487s. Wall time 5.1810s.
+	NumCachedDirectories 0. NumUncachedDirectories 2184. NumCachedFiles 0. NumUncachedFiles 8348.
+	BackgroundTickInterruptions 16.
+[2026.09.14-21.24.45:887][  0]LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+[2026.09.14-21.24.45:894][  0]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2026.09.14-21.24.45:900][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2026.09.14-21.24.45:900][  0]LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.511s
+[2026.09.14-21.24.45:901][  0]LogSourceControl: Uncontrolled asset discovery started...
+[2026.09.14-21.24.45:902][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.09.14-21.24.45:902][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.09.14-21.24.45:944][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.09.14-21.24.46:069][  0]LogSourceControl: Uncontrolled asset discovery finished in 0.167755 seconds (Found 8324 uncontrolled assets)
+[2026.09.14-21.24.46:248][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.7/Engine/Binaries/Win64/zen.exe service status'.
+[2026.09.14-21.24.46:555][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.14-21.24.46:557][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.09.14-21.24.46:573][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 16.066 ms
+[2026.09.14-21.24.46:573][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.09.14-21.24.46:581][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.09.14-21.24.46:591][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 18.066 ms (total: 34.132 ms)
+[2026.09.14-21.24.46:605][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: MyProjectEditor Win64 Development
+[2026.09.14-21.24.46:779][  1]LogAssetRegistry: Display: Asset registry cache written as 71.1 MiB to D:/Entregas practicas Programacion 2026/Hurryup_MateoArredondo_2026_2b/MyProject/Intermediate/CachedAssetRegistry_*.bin
+[2026.09.14-21.24.46:895][  3]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 4.139477
+[2026.09.14-21.24.46:895][  3]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.09.14-21.24.46:896][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4.170473
+[2026.09.14-21.24.47:963][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.09.14-21.24.48:629][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 5.571894
+[2026.09.14-21.24.48:630][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -1974487726
+[2026.09.14-21.24.48:630][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5.571894, Update Interval: 345.444519
