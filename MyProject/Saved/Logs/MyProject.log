@@ -1281,3 +1281,54 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.14-21.24.48:629][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 5.571894
 [2026.09.14-21.24.48:630][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -1974487726
 [2026.09.14-21.24.48:630][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5.571894, Update Interval: 345.444519
+[2026.09.14-21.25.04:350][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.09.14-21.25.04:364][435]LogStall: Shutdown...
+[2026.09.14-21.25.04:369][435]LogStall: Shutdown complete.
+[2026.09.14-21.25.04:383][435]LogSlate: Window 'Content Browser' being destroyed
+[2026.09.14-21.25.04:387][435]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2026.09.14-21.25.04:430][435]Cmd: QUIT_EDITOR
+[2026.09.14-21.25.04:430][436]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.09.14-21.25.04:432][436]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.09.14-21.25.04:432][436]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.09.14-21.25.04:432][436]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.09.14-21.25.04:433][436]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.09.14-21.25.04:433][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.14-21.25.04:433][436]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.09.14-21.25.04:436][436]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.09.14-21.25.04:436][436]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.09.14-21.25.04:437][436]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.09.14-21.25.04:440][436]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.09.14-21.25.04:440][436]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.09.14-21.25.04:440][436]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.09.14-21.25.04:440][436]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.09.14-21.25.04:440][436]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.09.14-21.25.04:442][436]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.09.14-21.25.04:444][436]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.09.14-21.25.04:449][436]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.09.14-21.25.04:449][436]LogAudio: Display: Audio Device Manager Shutdown
+[2026.09.14-21.25.04:453][436]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.09.14-21.25.04:453][436]LogExit: Preparing to exit.
+[2026.09.14-21.25.04:474][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.09.14-21.25.05:286][436]LogEditorDataStorage: Deinitializing
+[2026.09.14-21.25.05:343][436]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.09.14-21.25.05:350][436]LogExit: Editor shut down
+[2026.09.14-21.25.05:352][436]LogExit: Transaction tracking system shut down
+[2026.09.14-21.25.05:406][436]LogExit: Object subsystem successfully closed.
+[2026.09.14-21.25.05:520][436]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.09.14-21.25.05:633][436]LogMemoryProfiler: Shutdown
+[2026.09.14-21.25.05:633][436]LogNetworkingProfiler: Shutdown
+[2026.09.14-21.25.05:633][436]LoadingProfiler: Shutdown
+[2026.09.14-21.25.05:633][436]LogTimingProfiler: Shutdown
+[2026.09.14-21.25.05:633][436]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.14-21.25.05:633][436]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.14-21.25.06:194][436]LogWebBrowser: Deleting browser for Url=https://editor.unrealengine.com/get-started-with-unreal-engine.
+[2026.09.14-21.25.06:256][436]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.09.14-21.25.06:259][436]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.09.14-21.25.06:259][436]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAD88DF03-49C8-FF12-9202-BF83BF75F3A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.7.4-51494982%2B%2B%2BUE5%2BRelease-5.7&UserID=1e4a08f74898c257ec12debe5641bddc%7Ca14689522dfd4c16b9de6b85201fa6f1%7Cc4187511-0249-4261-8a18-14f5cbe14679&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.09.14-21.25.06:813][436]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.14-21.25.06:817][436]LogNFORDenoise: NFORDenoise function shutting down
+[2026.09.14-21.25.06:817][436]RenderDocPlugin: plugin has been unloaded.
+[2026.09.14-21.25.06:818][436]LogPakFile: Destroying PakPlatformFile
+[2026.09.14-21.25.06:935][436]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.09.14-21.25.06:966][436]LogExit: Exiting.
+[2026.09.14-21.25.06:976][436]Log file closed, 09/14/26 18:25:06
