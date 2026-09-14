@@ -15,10 +15,8 @@ public class MyProject : ModuleRules
 			"InputCore",
 			"EnhancedInput",
 			"AIModule",
-			"NavigationSystem",
 			"StateTreeModule",
 			"GameplayStateTreeModule",
-			"Niagara",
 			"UMG",
 			"Slate"
 		});
@@ -27,12 +25,19 @@ public class MyProject : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"MyProject",
-			"MyProject/Variant_Strategy",
-			"MyProject/Variant_Strategy/UI",
-			"MyProject/Variant_TwinStick",
-			"MyProject/Variant_TwinStick/AI",
-			"MyProject/Variant_TwinStick/Gameplay",
-			"MyProject/Variant_TwinStick/UI"
+			"MyProject/Variant_Platforming",
+			"MyProject/Variant_Platforming/Animation",
+			"MyProject/Variant_Combat",
+			"MyProject/Variant_Combat/AI",
+			"MyProject/Variant_Combat/Animation",
+			"MyProject/Variant_Combat/Gameplay",
+			"MyProject/Variant_Combat/Interfaces",
+			"MyProject/Variant_Combat/UI",
+			"MyProject/Variant_SideScrolling",
+			"MyProject/Variant_SideScrolling/AI",
+			"MyProject/Variant_SideScrolling/Gameplay",
+			"MyProject/Variant_SideScrolling/Interfaces",
+			"MyProject/Variant_SideScrolling/UI"
 		});
 
 		// Uncomment if you are using Slate UI
