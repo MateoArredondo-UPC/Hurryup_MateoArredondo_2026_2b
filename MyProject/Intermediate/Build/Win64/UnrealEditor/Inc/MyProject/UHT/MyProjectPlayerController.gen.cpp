@@ -12,13 +12,12 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 void EmptyLinkFunctionForGeneratedCodeMyProjectPlayerController() {}
 
 // ********** Begin Cross Module References ********************************************************
-AIMODULE_API UClass* Z_Construct_UClass_UPathFollowingComponent_NoRegister();
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_APlayerController();
-ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 MYPROJECT_API UClass* Z_Construct_UClass_AMyProjectPlayerController();
 MYPROJECT_API UClass* Z_Construct_UClass_AMyProjectPlayerController_NoRegister();
-NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
+UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 UPackage* Z_Construct_UPackage__Script_MyProject();
 // ********** End Cross Module References **********************************************************
 
@@ -57,85 +56,76 @@ struct Z_Construct_UClass_AMyProjectPlayerController_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n *  Player controller for a top-down perspective game.\n *  Implements point and click based controls\n */" },
+		{ "Comment", "/**\n *  Basic PlayerController class for a third person game\n *  Manages input mappings\n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "MyProjectPlayerController.h" },
 		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Player controller for a top-down perspective game.\nImplements point and click based controls" },
+		{ "ToolTip", "Basic PlayerController class for a third person game\nManages input mappings" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PathFollowingComponent_MetaData[] = {
-		{ "Category", "AI" },
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContexts_MetaData[] = {
+		{ "Category", "Input|Input Mappings" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Component used for moving along a NavMesh path. */" },
+		{ "Comment", "/** Input Mapping Contexts */" },
+#endif
+		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Input Mapping Contexts" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MobileExcludedMappingContexts_MetaData[] = {
+		{ "Category", "Input|Input Mappings" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Input Mapping Contexts */" },
+#endif
+		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Input Mapping Contexts" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MobileControlsWidgetClass_MetaData[] = {
+		{ "Category", "Input|Touch Controls" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Mobile controls widget to spawn */" },
+#endif
+		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Mobile controls widget to spawn" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MobileControlsWidget_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Pointer to the mobile controls widget */" },
 #endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Component used for moving along a NavMesh path." },
+		{ "ToolTip", "Pointer to the mobile controls widget" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShortPressThreshold_MetaData[] = {
-		{ "Category", "Input" },
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bForceTouchControls_MetaData[] = {
+		{ "Category", "Input|Touch Controls" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Time Threshold to know if it was a short press */" },
+		{ "Comment", "/** If true, the player will use UMG touch controls even if not playing on mobile platforms */" },
 #endif
 		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Time Threshold to know if it was a short press" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FXCursor_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** FX Class that we will spawn when clicking */" },
-#endif
-		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "FX Class that we will spawn when clicking" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContext_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** MappingContext */" },
-#endif
-		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "MappingContext" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SetDestinationClickAction_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Jump Input Action */" },
-#endif
-		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Jump Input Action" },
-#endif
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SetDestinationTouchAction_MetaData[] = {
-		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Jump Input Action */" },
-#endif
-		{ "ModuleRelativePath", "MyProjectPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Jump Input Action" },
+		{ "ToolTip", "If true, the player will use UMG touch controls even if not playing on mobile platforms" },
 #endif
 	};
 #endif // WITH_METADATA
 
 // ********** Begin Class AMyProjectPlayerController constinit property declarations ***************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_PathFollowingComponent;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_ShortPressThreshold;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_FXCursor;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_SetDestinationClickAction;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_SetDestinationTouchAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContexts_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_DefaultMappingContexts;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MobileExcludedMappingContexts_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_MobileExcludedMappingContexts;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_MobileControlsWidgetClass;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MobileControlsWidget;
+	static void NewProp_bForceTouchControls_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bForceTouchControls;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class AMyProjectPlayerController constinit property declarations *****************
 	static UObject* (*const DependentSingletons[])();
@@ -146,19 +136,25 @@ struct Z_Construct_UClass_AMyProjectPlayerController_Statics
 }; // struct Z_Construct_UClass_AMyProjectPlayerController_Statics
 
 // ********** Begin Class AMyProjectPlayerController Property Definitions **************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_PathFollowingComponent = { "PathFollowingComponent", nullptr, (EPropertyFlags)0x01240800000b0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, PathFollowingComponent), Z_Construct_UClass_UPathFollowingComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PathFollowingComponent_MetaData), NewProp_PathFollowingComponent_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_ShortPressThreshold = { "ShortPressThreshold", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, ShortPressThreshold), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ShortPressThreshold_MetaData), NewProp_ShortPressThreshold_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_FXCursor = { "FXCursor", nullptr, (EPropertyFlags)0x0124080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, FXCursor), Z_Construct_UClass_UNiagaraSystem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FXCursor_MetaData), NewProp_FXCursor_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0124080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContext_MetaData), NewProp_DefaultMappingContext_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_SetDestinationClickAction = { "SetDestinationClickAction", nullptr, (EPropertyFlags)0x0124080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, SetDestinationClickAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetDestinationClickAction_MetaData), NewProp_SetDestinationClickAction_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_SetDestinationTouchAction = { "SetDestinationTouchAction", nullptr, (EPropertyFlags)0x0124080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, SetDestinationTouchAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SetDestinationTouchAction_MetaData), NewProp_SetDestinationTouchAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContexts_Inner = { "DefaultMappingContexts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContexts = { "DefaultMappingContexts", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, DefaultMappingContexts), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContexts_MetaData), NewProp_DefaultMappingContexts_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileExcludedMappingContexts_Inner = { "MobileExcludedMappingContexts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileExcludedMappingContexts = { "MobileExcludedMappingContexts", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, MobileExcludedMappingContexts), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MobileExcludedMappingContexts_MetaData), NewProp_MobileExcludedMappingContexts_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileControlsWidgetClass = { "MobileControlsWidgetClass", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, MobileControlsWidgetClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MobileControlsWidgetClass_MetaData), NewProp_MobileControlsWidgetClass_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileControlsWidget = { "MobileControlsWidget", nullptr, (EPropertyFlags)0x0124080000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyProjectPlayerController, MobileControlsWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MobileControlsWidget_MetaData), NewProp_MobileControlsWidget_MetaData) };
+void Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_bForceTouchControls_SetBit(void* Obj)
+{
+	((AMyProjectPlayerController*)Obj)->bForceTouchControls = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_bForceTouchControls = { "bForceTouchControls", nullptr, (EPropertyFlags)0x0020080000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AMyProjectPlayerController), &Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_bForceTouchControls_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bForceTouchControls_MetaData), NewProp_bForceTouchControls_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyProjectPlayerController_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_PathFollowingComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_ShortPressThreshold,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_FXCursor,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContext,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_SetDestinationClickAction,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_SetDestinationTouchAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContexts_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_DefaultMappingContexts,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileExcludedMappingContexts_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileExcludedMappingContexts,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileControlsWidgetClass,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_MobileControlsWidget,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyProjectPlayerController_Statics::NewProp_bForceTouchControls,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMyProjectPlayerController_Statics::PropPointers) < 2048);
 // ********** End Class AMyProjectPlayerController Property Definitions ****************************
@@ -193,6 +189,7 @@ UClass* Z_Construct_UClass_AMyProjectPlayerController()
 	}
 	return Z_Registration_Info_UClass_AMyProjectPlayerController.OuterSingleton;
 }
+AMyProjectPlayerController::AMyProjectPlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, AMyProjectPlayerController);
 AMyProjectPlayerController::~AMyProjectPlayerController() {}
 // ********** End Class AMyProjectPlayerController *************************************************
@@ -201,10 +198,10 @@ AMyProjectPlayerController::~AMyProjectPlayerController() {}
 struct Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyProjectPlayerController, AMyProjectPlayerController::StaticClass, TEXT("AMyProjectPlayerController"), &Z_Registration_Info_UClass_AMyProjectPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyProjectPlayerController), 907132965U) },
+		{ Z_Construct_UClass_AMyProjectPlayerController, AMyProjectPlayerController::StaticClass, TEXT("AMyProjectPlayerController"), &Z_Registration_Info_UClass_AMyProjectPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyProjectPlayerController), 4219247393U) },
 	};
 }; // Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_1318685710{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_4000640748{
 	TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectPlayerController_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,

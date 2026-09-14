@@ -53,14 +53,14 @@ struct Z_Construct_UClass_AMyProjectGameMode_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n *  Simple Game Mode for a top-down perspective game\n *  Sets the default gameplay framework classes\n *  Check the Blueprint derived class for the set values\n */" },
+		{ "Comment", "/**\n *  Simple GameMode for a third person game\n */" },
 #endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "MyProjectGameMode.h" },
 		{ "ModuleRelativePath", "MyProjectGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Simple Game Mode for a top-down perspective game\nSets the default gameplay framework classes\nCheck the Blueprint derived class for the set values" },
+		{ "ToolTip", "Simple GameMode for a third person game" },
 #endif
 	};
 #endif // WITH_METADATA
@@ -112,10 +112,10 @@ AMyProjectGameMode::~AMyProjectGameMode() {}
 struct Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyProjectGameMode, AMyProjectGameMode::StaticClass, TEXT("AMyProjectGameMode"), &Z_Registration_Info_UClass_AMyProjectGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyProjectGameMode), 3398656977U) },
+		{ Z_Construct_UClass_AMyProjectGameMode, AMyProjectGameMode::StaticClass, TEXT("AMyProjectGameMode"), &Z_Registration_Info_UClass_AMyProjectGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyProjectGameMode), 3227677253U) },
 	};
 }; // Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_3147865084{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_2316322446{
 	TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_MyProjectGameMode_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,

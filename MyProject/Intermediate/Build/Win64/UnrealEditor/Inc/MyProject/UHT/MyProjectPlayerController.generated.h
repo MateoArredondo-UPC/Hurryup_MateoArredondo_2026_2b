@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_AMyProjectPlayerController_Statics;
 MYPROJECT_API UClass* Z_Construct_UClass_AMyProjectPlayerController_NoRegister();
 
-#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyProjectPlayerController(); \
 	friend struct ::Z_Construct_UClass_AMyProjectPlayerController_Statics; \
@@ -31,22 +31,24 @@ public: \
 	DECLARE_SERIALIZER(AMyProjectPlayerController)
 
 
-#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_19_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AMyProjectPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyProjectPlayerController(AMyProjectPlayerController&&) = delete; \
 	AMyProjectPlayerController(const AMyProjectPlayerController&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyProjectPlayerController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyProjectPlayerController); \
-	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AMyProjectPlayerController) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyProjectPlayerController) \
 	NO_API virtual ~AMyProjectPlayerController();
 
 
-#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_21_PROLOG
-#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_24_GENERATED_BODY \
+#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_16_PROLOG
+#define FID_MyProject_Source_MyProject_MyProjectPlayerController_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_MyProject_Source_MyProject_MyProjectPlayerController_h_24_INCLASS_NO_PURE_DECLS \
-	FID_MyProject_Source_MyProject_MyProjectPlayerController_h_24_ENHANCED_CONSTRUCTORS \
+	FID_MyProject_Source_MyProject_MyProjectPlayerController_h_19_INCLASS_NO_PURE_DECLS \
+	FID_MyProject_Source_MyProject_MyProjectPlayerController_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
